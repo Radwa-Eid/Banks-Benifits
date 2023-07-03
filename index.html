@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div class="container mt-5">
+        <h1 class="mb-4">Welcome For You</h1>
+        <label for="loan" id="loan">Your Product Price</label>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text">$</span>
+            </div>
+            <input placeholder="Your Loan" name="money" disabled type="text" class="form-control"
+                aria-label="Amount (to the nearest dollar)">
+            <div class="input-group-append">
+                <span class="input-group-text">.00</span>
+            </div>
+        </div>
+
+        <ul class="nav nav-tabs mb-4" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#CIBBank" role="tab"
+                 aria-controls="home" aria-selected="true">CIB Bank</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#AhlyBank" role="tab"
+                    aria-controls="profile" aria-selected="false">Al-Ahly Bank</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#BDCBank" role="tab"
+                    aria-controls="contact" aria-selected="false">BDC Bank</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#BankMisr" role="tab"
+                    aria-controls="contact" aria-selected="false">Bank Misr</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="CIBBank" role="tabpanel" aria-labelledby="home-tab">
+                <p>BDC Current Plus Account specifically designed to fulfill clients’ needs who desire to invest their
+                    funds in current account bearing interest, calculated on daily closing balance & credited monthly,
+                    helps you to reach your goals in earning interest every month & bank easily.
+                </p>
+                <p>
+                    You Loan Program Will be For One Year
+                </p>
+                <button type="button" class="btn btn-dark six">6 Monthos</button>
+                <button type="button" class="btn btn-dark twelve">12 Monthos</button>
+            </div>
+            <div class="tab-pane fade" id="AhlyBank" role="tabpanel" aria-labelledby="profile-tab">
+                <p>BDC Current Plus Account specifically designed to fulfill clients’ needs who desire to invest their
+                    funds in current account bearing interest, calculated on daily closing balance & credited monthly,
+                    helps you to reach your goals in earning interest every month & bank easily.
+                </p>
+                <p>
+                    You Loan Program Will be For One and Half Year
+                </p>
+                <button type="button" class="btn btn-dark six">6 Monthos</button>
+                <button type="button" class="btn btn-dark twelve">12 Monthos</button>
+                <button type="button" class="btn btn-dark eighteen">18 Monthos</button>
+            </div>
+            <div class="tab-pane fade" id="BDCBank" role="tabpanel" aria-labelledby="contact-tab">
+                <p>BDC Current Plus Account specifically designed to fulfill clients’ needs who desire to invest their
+                    funds in current account bearing interest, calculated on daily closing balance & credited monthly,
+                    helps you to reach your goals in earning interest every month & bank easily.
+                </p>
+                <p>
+                    You Loan Program Will be For Two Year
+                </p>
+                <button type="button" class="btn btn-dark six">6 Monthos</button>
+                <button type="button" class="btn btn-dark twelve">12 Monthos</button>
+                <button type="button" class="btn btn-dark eighteen">18 Monthos</button>
+                <button type="button" class="btn btn-dark twentyfour">24 Monthos</button>
+            </div>
+            <div class="tab-pane fade" id="BankMisr" role="tabpanel" aria-labelledby="contact-tab">
+                <p>BDC Current Plus Account specifically designed to fulfill clients’ needs who desire to invest their
+                    funds in current account bearing interest, calculated on daily closing balance & credited monthly,
+                    helps you to reach your goals in earning interest every month & bank easily.
+                </p>
+                <p>
+                    You Loan Program Will be For Two and Half Year
+                </p>
+                <button type="button" class="btn btn-dark six">6 Monthos</button>
+                <button type="button" class="btn btn-dark twelve">12 Monthos</button>
+                <button type="button" class="btn btn-dark eighteen">18 Monthos</button>
+                <button type="button" class="btn btn-dark twentyfour">24 Monthos</button>
+                <button type="button" class="btn btn-dark thirty">30 Monthos</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!--JS Files Start-->
+    <script src="./js/jquery-3.6.1.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+    <!--JS Files End-->
+</body>
+
+</html>
